@@ -1,0 +1,17 @@
+{
+	"ImportPath": "images_search_abstraction_layer",
+	"GoVersion": "go1.10",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/lib/pq",
+			"Comment": "go1.0-cutoff-204-gb200422",
+			"Rev": "b2004221932bd6b13167ef654c81cffac36f7537"
+		},
+		{
+			"ImportPath": "github.com/lib/pq/oid",
+			"Comment": "go1.0-cutoff-204-gb200422",
+			"Rev": "b2004221932bd6b13167ef654c81cffac36f7537"
+		}
+	]
+}
