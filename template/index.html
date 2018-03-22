@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/assets/style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>IMAGES SEARCH ABSTRACTION LAYER API</h1>
+    <div class="header">
+        <h1>IMAGES SEARCH ABSTRACTION LAYER API</h1>
+        <h3>this api allow you to search images on the internet using the qwant search engime unofficial images search api</h3>
+    </div>
+    <div class="explain">
+        This api have two endpoint: 
+        <ul>
+            <li>The first one allow you to get images data by providing a search query in the api url:
+                <p>Exemple: localhost:8080/api/imagesearch/cats?offset=10  where cats is the images you are looking for.</p>
+            </li>
+            <li>
+                The second endpoint allow you to get json data of the last search queries :
+                <p>Exemple: localhost:8080/api/latest/imagesearch/</p>
+            </li>
+        </ul>  
+    </div>
+    <div class="footer">
+        <p>CODED AND DESIGNED BY : <a href="https://github.com/behouba">MANASSE K. B</a></p>
+    </div>
 </body>
 </html>

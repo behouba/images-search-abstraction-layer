@@ -1,0 +1,13 @@
+body {
+    background-color: lightblue;
+    margin: 20px 40px;
+}
+.header h1 {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 300px;
+    text-align: right;
+    font-size: 13px;
+}
